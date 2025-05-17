@@ -5,7 +5,7 @@ A simple Node.js script that automatically downloads a random high-resolution im
 
 ## ✨ Features
 
-- 📸 Downloads random 1920x1080 images
+- 📸 Downloads random images  from Unsplash
 - 🎨 Applies wallpaper to both light and dark GNOME themes
 - 🔁 Can be integrated with a scheduler (e.g. `cron`) for automatic updates
 
