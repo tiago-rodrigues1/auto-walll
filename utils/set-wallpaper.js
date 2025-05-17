@@ -5,7 +5,6 @@ export const setWallpaper = async (imagePath) => {
 		const display = process.env.DISPLAY || ":0"
     const dbus = process.env.DBUS_SESSION_BUS_ADDRESS || `unix:path=/run/user/${process.getuid()}/bus`
 
-		console.log(imagePath)
     const setCommand = (key) =>
       `DISPLAY=${display} DBUS_SESSION_BUS_ADDRESS=${dbus} gsettings set org.gnome.desktop.background ${key} "file://${imagePath}"`
 
