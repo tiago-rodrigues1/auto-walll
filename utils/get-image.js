@@ -3,7 +3,7 @@ import axios from "axios"
 
 import { config } from "../config.js"
 
-function getRandomNumberInRange(min, max) {
+const getRandomNumberInRange = (min, max) => {
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
