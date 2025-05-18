@@ -3,6 +3,9 @@
 A simple Node.js script that automatically downloads a random high-resolution image from [Unsplash](https://source.unsplash.com) and sets it as your desktop wallpaper on GNOME (Linux). Perfect for anyone who loves keeping their desktop fresh with beautiful backgrounds — effortlessly.
 
 
+[Gravação de tela de 17-05-2025 23:04:48.webm](https://github.com/user-attachments/assets/e864c16f-a699-4c15-8f3d-027f87e22ea9)
+
+
 ## ✨ Features
 
 - 📸 Downloads random images  from Unsplash
