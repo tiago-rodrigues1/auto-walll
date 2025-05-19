@@ -25,7 +25,7 @@ export const getImage = async () => {
 		const response = await axios.get(url)
 
 		if (response.status === 200) {
-			console.log(`[OK] Image with retrieved successfully ${themeQuery}`)
+			console.log(`[OK] Image retrieved successfully ${themeQuery}`)
 
 			const image = {
 				filename: `${response.data.id}.jpg`,
